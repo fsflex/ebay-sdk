@@ -34,6 +34,12 @@ class GetItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
             'attribute' => false,
             'elementName' => 'ItemID'
         ],
+        'VariationID' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'VariationID'
+        ],
         'IncludeWatchCount' => [
             'type' => 'boolean',
             'repeatable' => false,
