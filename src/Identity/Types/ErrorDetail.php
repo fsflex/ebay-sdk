@@ -1,6 +1,14 @@
 <?php
 
 namespace DTS\eBaySDK\Identity\Types;
+/**
+ *
+ * @property string $category
+ * @property string $domain
+ * @property integer $errorId
+ * @property string $longMessage
+ * @property string $message
+ */
 
 class ErrorDetail extends \DTS\eBaySDK\Types\BaseType
 {

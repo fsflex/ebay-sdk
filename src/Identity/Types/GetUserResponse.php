@@ -3,9 +3,15 @@
 
 namespace DTS\eBaySDK\Identity\Types;
 
-
-use DTS\eBaySDK\HttpHeadersTrait;
-use DTS\eBaySDK\StatusCodeTrait;
+/**
+ *
+ * @property ErrorDetail[] $errors
+ * @property string userId
+ * @property string $errorId
+ * @property string $username
+ * @property string $accountType
+ * @property string $registrationMarketplaceId
+ */
 
 class GetUserResponse extends \DTS\eBaySDK\Types\BaseType
 {
