@@ -7,6 +7,7 @@ namespace DTS\eBaySDK\Identity\Services;
 class IdentityService  extends \DTS\eBaySDK\Identity\Services\IdentityBaseService
 {
     const API_VERSION = 'v1';
+
     /**
      * @property array $operations Associative array of operations provided by the service.
      */
