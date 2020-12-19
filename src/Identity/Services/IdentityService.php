@@ -4,6 +4,8 @@
 namespace DTS\eBaySDK\Identity\Services;
 
 
+use DTS\eBaySDK\Identity\Types\GetUserResponse;
+
 class IdentityService  extends \DTS\eBaySDK\Identity\Services\IdentityBaseService
 {
     const API_VERSION = 'v1';
@@ -22,7 +24,7 @@ class IdentityService  extends \DTS\eBaySDK\Identity\Services\IdentityBaseServic
 
     /**
      * @param
-     * @return \DTS\eBaySDK\Identity\Types\GetUserResponse
+     * @return GetUserResponse
      */
     public function getUser()
     {
@@ -31,7 +33,7 @@ class IdentityService  extends \DTS\eBaySDK\Identity\Services\IdentityBaseServic
 
     /**
      * @param
-     * @return \DTS\eBaySDK\Identity\Types\GetUserResponse
+     * @return GetUserResponse
      */
     public function getUserAsync()
     {
