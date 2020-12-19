@@ -20,11 +20,19 @@ class IdentityService  extends \DTS\eBaySDK\Identity\Services\IdentityBaseServic
         ]
     ];
 
+    /**
+     * @param
+     * @return \DTS\eBaySDK\Identity\Types\GetUserResponse
+     */
     public function getUser()
     {
         return $this->getUserAsync()->wait();
     }
 
+    /**
+     * @param
+     * @return \DTS\eBaySDK\Identity\Types\GetUserResponse
+     */
     public function getUserAsync()
     {
         return $this->callOperationAsync('GetUser');
